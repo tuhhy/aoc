@@ -13,11 +13,4 @@ for i in lst:
         group = 0
     else:
         group += int(i.strip())
-
 print(max(maxint))
-
-wirklichmax = []
-for i in range(3):
-    wirklichmax.append(maxint.pop(indexOf(maxint, max(maxint))))
-print(wirklichmax)
-print(sum(wirklichmax))
